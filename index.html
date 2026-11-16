@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <title>DyNimeKu - Nonton Anime & Donghua</title>
+</head>
+<body>
+
+<header class="navbar">
+  <a href="#" class="logo">DyNime<span>Ku</span></a>
+  <nav id="menu">
+    <a href="#" class="active">Beranda</a>
+    <a href="#terbaru">Terbaru</a>
+    <a href="#populer">Populer</a>
+    <a href="#genre">Genre</a>
+  </nav>
+  <div class="nav-right">
+    <input type="search" id="search" placeholder="Cari judul...">
+    <button id="theme-btn" title="Ganti tema">🌓</button>
+    <button id="burger" title="Menu">☰</button>
+  </div>
+</header>
+
+<section class="hero" id="hero">
+  <div class="hero-text">
+    <span class="badge">Rekomendasi</span>
+    <h1 id="hero-title">Judul Anime</h1>
+    <p id="hero-desc">Deskripsi singkat.</p>
+    <button class="btn" id="hero-btn">▶ Tonton Sekarang</button>
+  </div>
+</section>
+
+<main class="container">
+  <div class="genres" id="genre">
+    <button class="chip active" data-genre="Semua">Semua</button>
+    <button class="chip" data-genre="Aksi">Aksi</button>
+    <button class="chip" data-genre="Fantasi">Fantasi</button>
+    <button class="chip" data-genre="Romantis">Romantis</button>
+    <button class="chip" data-genre="Komedi">Komedi</button>
+  </div>
+
+  <h2 class="title" id="terbaru">Rilis Terbaru</h2>
+  <div class="grid" id="grid-terbaru"></div>
+
+  <h2 class="title" id="populer">Populer</h2>
+  <div class="grid" id="grid-populer"></div>
+</main>
+
+<!-- Modal detail + pemutar -->
+<div class="modal" id="modal">
+  <div class="modal-box">
+    <button class="close" id="close">✕</button>
+    <div class="player">
+      <iframe id="player" src="" allowfullscreen></iframe>
+    </div>
+    <a class="dl-main" id="dl-main" href="#" target="_blank" rel="noopener">⬇ Download Episode 1</a>
+    <div class="dl-alt" id="dl-alt"></div>
+    <h3 id="m-title"></h3>
+    <p class="meta" id="m-meta"></p>
+    <p id="m-desc"></p>
+    <h4>Daftar Episode</h4>
+    <div class="eps" id="eps"></div>
+  </div>
+</div>
+
+<footer>© 2026 NimeKu. Prototipe dengan data contoh.</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
