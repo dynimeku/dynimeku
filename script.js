@@ -14,14 +14,35 @@ const animeList = [
   {id:4, title:"Klub Tawa Sekolah", genre:"Komedi", type:"Anime", rating:7.5, eps:12, color:"#e0a030",
    desc:"Kekacauan sehari-hari di klub paling aneh di sekolah.",
    video:"", dl:""},
-  {id:5, title:"Naga Giok Perkasa", genre:"Fantasi", type:"Donghua", rating:8.9, eps:30, color:"#1f8a70",
-   desc:"Legenda naga giok bangkit kembali dan mengubah takdir tiga sekte besar.",
-   video:"", dl:"https://contoh.com/naga-giok/eps-{n}.mp4"},
-  {id:6, title:"Ksatria Cahaya", genre:"Aksi", type:"Anime", rating:8.0, eps:26, color:"#2c6fbb",
-   desc:"Pasukan ksatria muda melawan kegelapan yang mengancam perbatasan.",
-   video:"", dl:"https://contoh.com/ksatria-cahaya/eps-{n}.mp4"},
-  {id:7, title:"A mother's desire", genre:"Romantis", type:"Drama", rating:9.1, eps:9, color:"#b0396b",
-   desc:"The file is in zip format and is password-protected. PW:dynime.",
+  //collage girl
+  {id:5, title:"College Girl", genre:"School", type:"Drama", rating:9.6, eps:6, color:"#1f8a70",
+   desc:"The file is in zip format and is password-protected.PW:dynimeku",
+   video:"", dl:["https://sfl.gl/Xzb6",
+                 "https://sfl.gl/7GraYrq",
+                 "https://sfl.gl/iyNDHG",
+                 "https://sfl.gl/56AFdZG",
+                 "https://sfl.gl/7BDn9a",
+                 "https://sfl.gl/mpT1Je"],
+  alt:[
+    {nama:"terabox",url:[]},
+    {nama:"uc browser",url:[]}],
+  poster:"images/college-girl.jpg"},
+  //Conquering mother
+  {id:6, title:"Conquering Mother", genre:"Romance", type:"Drama", rating:8.9, eps:6, color:"#2c6fbb",
+   desc:"The file is in zip format and is Pessword-protected.PW:dynime",
+   video:"", dl:["https://sfl.gl/YBY5",
+                 "https://sfl.gl/PoiG5qL",
+                 "https://sfl.gl/VoLfnb68",
+                 "https://sfl.gl/NVgn",
+                 "https://sfl.gl/NkJIR",
+                 "https://sfl.gl/OPQ7"],
+  alt:[
+    {nama:"terabox", url:[]},
+    {nama:"uc browser", url:[]}],
+  poster:"images/conquering-mother.jpg"},
+  // A mother's desire
+  {id:7, title:"A mother's desire", genre:"Romance", type:"Drama", rating:9.1, eps:9, color:"#b0396b",
+   desc:"The file is in zip format and is password-protected. PW:dynime",
    video:"", dl:["https://sfl.gl/w0vvd9U",
                  "https://sfl.gl/i7jiFQ",
                  "https://sfl.gl/stXDpcKx",
@@ -37,8 +58,8 @@ const animeList = [
    ],
   banner:"images/hasrat-seorang-ibu.jpg",
   poster:"images/hasrat-seorang-ibu-poster.jpg"},
-  
-  {id:8, title:"Time Stoppage", genre:"Romantis", type:"Drama", rating:9.3, eps:10, color:"#d9822b",
+  //Time Stoppage
+  {id:8, title:"Time Stoppage", genre:"Romance", type:"Drama", rating:9.3, eps:10, color:"#d9822b",
    desc:"The file is in zip format and is password-protected. PW:dynime",
    video:"", dl:["https://sfl.gl/9jJBMxQ",
                  "https://sfl.gl/MJNp1HgO",
@@ -71,8 +92,7 @@ const animeList = [
                             "https://uc-share.com/s/3c57a82846904?la=id",
                             "https://uc-share.com/s/90403b50537f4?la=id",
                             "https://uc-share.com/s/4a9e0b10f5584?la=id"
-   ]}
-   ],
+   ]}],
    banner:"images/penghentian-waktu.jpg",
    poster:"images/penghentian-waktu-poster.jpg"},
 ];
