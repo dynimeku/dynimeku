@@ -12,7 +12,7 @@ const animeList = [
   {id:2, title:"My Girlfriend helped me fuck her best friend", genre:"Romance", type:"Drama", rating:8.8, eps:2, color:"#6c3fb5",
    desc:"The file in zip format and is password-protected.PW:dynime",
    video:"", dl:["https://sfl.gl/AUwnh","https://sfl.gl/UbUU"],
-  poster:"images/my-gf.jpg"},
+  poster:"images/my-girl.jpg"},
   //Love assistant
   {id:3, title:"Love Assistant", genre:"Romance", type:"Drama", rating:9.1, eps:2, color:"#d35d8c",
    desc:"The file in zip format and is password-protected.PW:dynime",
