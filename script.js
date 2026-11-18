@@ -2,15 +2,23 @@
 // dl = link download. {n} otomatis diganti nomor episode.
 // Kosongkan dl ("") kalau belum punya link.
 const animeList = [
-  {id:1, title:"Pedang Langit Abadi", genre:"Aksi", type:"Donghua", rating:8.7, eps:20, color:"#c0392b",
-   desc:"Seorang pemuda desa menemukan pedang kuno dan memulai perjalanan menuju puncak dunia kultivasi.",
-   video:"", dl:"https://drive.google.com/uc?export=download&id=1VuZTTFpYEdIYAiZLMc6zQqfJAwUM_Dca"},
-  {id:2, title:"Kerajaan Bayangan", genre:"Fantasi", type:"Anime", rating:8.2, eps:12, color:"#6c3fb5",
-   desc:"Sebuah kerajaan yang diselimuti kabut menyimpan rahasia kelam di balik tahtanya.",
-   video:"", dl:"https://contoh.com/kerajaan-bayangan/eps-{n}.mp4"},
-  {id:3, title:"Senja di Kota Tua", genre:"Romantis", type:"Anime", rating:7.9, eps:13, color:"#d35d8c",
-   desc:"Dua sahabat lama bertemu kembali di kota kecil dan perasaan lama pun bangkit.",
-   video:"", dl:"https://contoh.com/senja-kota-tua/eps-{n}.mp4"},
+  {id:1, title:"Hypnotic glasses", genre:"Akction", type:"Drama", rating:8.7, eps:3, color:"#c0392b",
+   desc:"The file in zip format and is password-protected.PW:dynime",
+   video:"", dl:["https://sfl.gl/eQhfEziv",
+                 "https://sfl.gl/v8KRCz",
+                 "https://sfl.gl/IcN2uOjE"],
+  poster:"images/hypnotic.jpg"},
+  //My Girlfriend helped me fuck her best friend
+  {id:2, title:"My Girlfriend helped me fuck her best friend", genre:"Romance", type:"Drama", rating:8.8, eps:2, color:"#6c3fb5",
+   desc:"The file in zip format and is password-protected.PW:dynime",
+   video:"", dl:["https://sfl.gl/AUwnh","https://sfl.gl/UbUU"],
+  poster:"images/my-gf.jpg"},
+  //Love assistant
+  {id:3, title:"Love Assistant", genre:"Romance", type:"Drama", rating:9.1, eps:2, color:"#d35d8c",
+   desc:"The file in zip format and is password-protected.PW:dynime",
+   video:"", dl:["https://sfl.gl/h3Pa8i",
+                 "https://sfl.gl/wvrikXe"],
+  poster:"images/love-assistant.jpg"},
   //I turned my bro into a bitch
   {id:4, title:"I turned my bro into a bitch", genre:"Romance", type:"Drama", rating:8.5, eps:7, color:"#e0a030",
    desc:"The file in zip format and is password-protected.PW:dynime",
