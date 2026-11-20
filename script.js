@@ -142,7 +142,7 @@ const animeList = [
    banner:"images/penghentian-waktu.jpg",
    poster:"images/penghentian-waktu-poster.jpg"},
   
-  {id:9, title:"A mother's desire", genre:"Romance", type:"Drama", rating:9.1, eps:9, color:"#b0396b",
+  {id:9, title:"Onlyfans", genre:"Romance", type:"Drama", rating:9.1, eps:9, color:"#b0396b",
    desc:"The file is in zip format and is password-protected. PW:dynime",
    video:"", dl:["https://bit.ly/4fLi79x",
                  "https://bit.ly/auctionr-sale",
