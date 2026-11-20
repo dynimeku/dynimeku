@@ -4,20 +4,34 @@
 const animeList = [
   {id:1, title:"Hypnotic glasses", genre:"Akction", type:"Drama", rating:8.7, eps:3, color:"#c0392b",
    desc:"The file in zip format and is password-protected.PW:dynime",
-   video:"", dl:["https://sfl.gl/eQhfEziv",
-                 "https://sfl.gl/v8KRCz",
-                 "https://sfl.gl/IcN2uOjE"],
+   video:"", dl:["https://bit.ly/4fLi79x",
+                 "https://bit.ly/auctionr-sale",
+                 "https://bit.ly/4fLi79x"],
+   alt:[
+     {nama:"terabox", url:["https://sfl.gl/KXuge",
+                           "https://sfl.gl/DUKT7",
+                           "https://sfl.gl/IMPBq"]}
+   ],
   poster:"images/hypnotic.jpg"},
   //My Girlfriend helped me fuck her best friend
   {id:2, title:"My Girlfriend helped me fuck her best friend", genre:"Romance", type:"Drama", rating:8.8, eps:2, color:"#6c3fb5",
    desc:"The file in zip format and is password-protected.PW:dynime",
-   video:"", dl:["https://sfl.gl/AUwnh","https://sfl.gl/UbUU"],
+   video:"", dl:["https://bit.ly/4fLi79x",
+                 "https://bit.ly/auctionr-sale"],
+   alt:[
+     {nama:"terabox", url:["https://sfl.gl/2pid",
+                           "https://sfl.gl/355vnf"]}
+   ],
   poster:"images/my-girl.jpg"},
   //Love assistant
   {id:3, title:"Love Assistant", genre:"Romance", type:"Drama", rating:9.1, eps:2, color:"#d35d8c",
    desc:"The file in zip format and is password-protected.PW:dynime",
-   video:"", dl:["https://sfl.gl/h3Pa8i",
-                 "https://sfl.gl/wvrikXe"],
+   video:"", dl:["https://bit.ly/4fLi79x",
+                 "https://bit.ly/auctionr-sale"],
+   alt:[
+     {nama:"terabox", url:["https://sfl.gl/Aacj20",
+                           "https://sfl.gl/u28g5OI"]}
+   ],
   poster:"images/love-assistant.jpg"},
   //I turned my bro into a bitch
   {id:4, title:"I turned my bro into a bitch", genre:"Romance", type:"Drama", rating:8.5, eps:7, color:"#e0a030",
@@ -42,27 +56,37 @@ const animeList = [
   //collage girl
   {id:5, title:"College Girl", genre:"School", type:"Drama", rating:9.6, eps:6, color:"#1f8a70",
    desc:"The file is in zip format and is password-protected.PW:dynimeku",
-   video:"", dl:["https://sfl.gl/Xzb6",
-                 "https://sfl.gl/7GraYrq",
-                 "https://sfl.gl/iyNDHG",
-                 "https://sfl.gl/56AFdZG",
-                 "https://sfl.gl/7BDn9a",
-                 "https://sfl.gl/mpT1Je"],
+   video:"", dl:["https://bit.ly/4fLi79x",
+                 "https://bit.ly/auctionr-sale",
+                 "https://bit.ly/4fLi79x",
+                 "https://bit.ly/auctionr-sale",
+                 "https://bit.ly/4fLi79x",
+                 "https://bit.ly/auctionr-sale"],
   alt:[
-    {nama:"terabox",url:[]},
+    {nama:"terabox",url:["https://sfl.gl/0LKgCTJ8",
+                         "https://sfl.gl/eMbU",
+                         "https://sfl.gl/CeZE",
+                         "https://sfl.gl/XBIjmNri",
+                         "https://sfl.gl/RcnZNe5",
+                         "https://sfl.gl/NGhw1P"]},
     {nama:"uc browser",url:[]}],
   poster:"images/college-girl.jpg"},
   //Conquering mother
-  {id:6, title:"Conquering Mother", genre:"Romance", type:"Drama", rating:8.9, eps:6, color:"#2c6fbb",
+  {id:6, title:"Conquering the Mother", genre:"Romance", type:"Drama", rating:8.9, eps:6, color:"#2c6fbb",
    desc:"The file is in zip format and is Pessword-protected.PW:dynime",
-   video:"", dl:["https://sfl.gl/YBY5",
-                 "https://sfl.gl/PoiG5qL",
-                 "https://sfl.gl/VoLfnb68",
-                 "https://sfl.gl/NVgn",
-                 "https://sfl.gl/NkJIR",
-                 "https://sfl.gl/OPQ7"],
+   video:"", dl:["https://bit.ly/4fLi79x",
+                 "https://bit.ly/auctionr-sale",
+                 "https://bit.ly/4fLi79x",
+                 "https://bit.ly/auctionr-sale",
+                 "https://bit.ly/4fLi79x",
+                 "https://bit.ly/auctionr-sale"],
   alt:[
-    {nama:"terabox", url:[]},
+    {nama:"terabox", url:["https://sfl.gl/1A6dkx",
+                          "https://sfl.gl/51i1rvhm",
+                          "https://sfl.gl/ietWPA",
+                          "https://sfl.gl/vKnkhI",
+                          "https://sfl.gl/qGACrXkp",
+                          "https://sfl.gl/hsgUIv"]},
     {nama:"uc browser", url:[]}],
   poster:"images/conquering-mother.jpg"},
   // A mother's desire
@@ -117,6 +141,20 @@ const animeList = [
                          "https://sfl.gl/dXeS"]}],
    banner:"images/penghentian-waktu.jpg",
    poster:"images/penghentian-waktu-poster.jpg"},
+  
+  {id:9, title:"A mother's desire", genre:"Romance", type:"Drama", rating:9.1, eps:9, color:"#b0396b",
+   desc:"The file is in zip format and is password-protected. PW:dynime",
+   video:"", dl:["https://bit.ly/4fLi79x",
+                 "https://bit.ly/auctionr-sale",
+                 "https://bit.ly/4fLi79x",
+                 "https://bit.ly/auctionr-sale",
+                 "https://bit.ly/4fLi79x",
+                 "https://bit.ly/auctionr-sale",
+                 "https://bit.ly/4fLi79x",
+                 "https://bit.ly/auctionr-sale",
+                 "https://bit.ly/4fLi79x"],
+   alt:[
+  {nama:"terabox", url:[]}]}
 ];
 
 // ===== ELEMEN =====
