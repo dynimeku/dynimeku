@@ -1,6 +1,6 @@
 :root{
   --bg:#0f1117; --card:#1a1d27; --text:#eef0f6; --muted:#9aa0b4;
-  --accent:#ff4d6d; --line:#2a2e3d;
+  --accent:#0858f8; --line:#2a2e3d;
 }
 body.light{
   --bg:#f4f5f9; --card:#ffffff; --text:#1b1e2b; --muted:#667085; --line:#dfe2ec;
@@ -134,4 +134,18 @@ footer{text-align:center;padding:24px;color:var(--muted);border-top:1px solid va
 @media(max-width:560px){
   .detail-top{flex-direction:column}
   .detail-poster{flex-basis:auto;width:55%}
+}
+/* ===== Logo ===== */
+.logo{display:flex;align-items:center;gap:8px}
+.logo-img{height:40px;width:auto;display:block}
+
+/* Perbaikan: supaya tulisan tidak merah semua.
+   Aturan lama ".logo span" mewarnai semua span, termasuk .logo-text */
+.logo .logo-text{color:var(--text)}
+.logo .logo-text span{color:var(--accent)}
+
+@media(max-width:720px){
+  .logo-img{height:30px}
+  .logo-text{font-size:1.15rem}
+  #search{width:100px}
 }
