@@ -90,7 +90,7 @@ const animeList = [
     {nama:"uc browser", url:[]}],
   poster:"images/conquering-mother.jpg"},
   // A mother's desire
-  {id:7, title:"A mother's desire", genre:"Romance", type:"Drama", rating:9.1, eps:9, color:"#b0396b",
+  {id:7, title:"A mother's desire", genre:"Romance", type:"Drama", rating:9.1, eps:10, color:"#b0396b",
    desc:"The file is in zip format and is password-protected. PW:dynime",
    video:"", dl:["https://bit.ly/4fLi79x",
                  "https://bit.ly/auctionr-sale",
@@ -100,7 +100,8 @@ const animeList = [
                  "https://bit.ly/auctionr-sale",
                  "https://bit.ly/4fLi79x",
                  "https://bit.ly/auctionr-sale",
-                 "https://bit.ly/4fLi79x"],
+                 "https://bit.ly/4fLi79x",
+                "https://bit.ly/auctionr-sale"],
    alt:[
   {nama:"terabox", url:["https://sfl.gl/w0vvd9U",
                         "https://sfl.gl/i7jiFQ",
@@ -110,11 +111,12 @@ const animeList = [
                  "https://sfl.gl/uVkC3cZB",
                  "https://sfl.gl/xJnVUl1H",
                  "https://sfl.gl/uxT2",
-                 "https://sfl.gl/g1BK"]},
+                 "https://sfl.gl/g1BK",
+                       "https://sfl.gl/FDUH8Tk"]},
   {nama:"uc browser",url:[""]}
    ],
   banner:"images/hasrat-seorang-ibu.jpg",
-  poster:"images/hasrat-seorang-ibu-poster.jpg"},
+  poster:"images/a-mother.jpg"},
   //Time Stoppage
   {id:8, title:"Time Stoppage", genre:"Romance", type:"Drama", rating:9.3, eps:10, color:"#d9822b",
    desc:"The file is in zip format and is password-protected. PW:dynime",
