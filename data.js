@@ -144,19 +144,14 @@ const animeList = [
    banner:"images/penghentian-waktu.jpg",
    poster:"images/penghentian-waktu-poster.jpg"},
   
-  {id:9, title:"Onlyfans", genre:"Romance", type:"Drama", rating:9.1, eps:9, color:"#b0396b",
+  {id:9, title:"OGY-040", genre:"Jav", type:"Movie", rating:9.1, eps:2, color:"#b0396b",
    desc:"The file is in zip format and is password-protected. PW:dynime",
    video:"", dl:["https://bit.ly/4fLi79x",
-                 "https://bit.ly/auctionr-sale",
-                 "https://bit.ly/4fLi79x",
-                 "https://bit.ly/auctionr-sale",
-                 "https://bit.ly/4fLi79x",
-                 "https://bit.ly/auctionr-sale",
-                 "https://bit.ly/4fLi79x",
-                 "https://bit.ly/auctionr-sale",
-                 "https://bit.ly/4fLi79x"],
+                 "https://bit.ly/auctionr-sale"],
    alt:[
-  {nama:"terabox", url:[]}]}
+  {nama:"terabox", url:["https://sfl.gl/dX4FMhY",
+                        "https://sfl.gl/LSZcXTF"]}],
+  poster:"images/hoshimura-rr.jpg"}
 ];
 // ===== FUNGSI BERSAMA (dipakai semua halaman) =====
 const $ = (id) => document.getElementById(id);
