@@ -151,7 +151,18 @@ const animeList = [
    alt:[
   {nama:"terabox", url:["https://sfl.gl/dX4FMhY",
                         "https://sfl.gl/LSZcXTF"]}],
-  poster:"images/hoshimura-rr.jpg"}
+  poster:"images/hoshimura-rr.jpg"},
+
+  {id:10, title:"Kitty2002102", genre:"Onlyfans", type:"Onlyfans", rating:9.0, eps:3, color:"#b0396b",
+   desc:"The file is in zip format and is password-protected. PW:dynime",
+   video:"", dl:["https://bit.ly/4fLi79x",
+                 "https://bit.ly/auctionr-sale",
+                 "https://bit.ly/4fLi79x"],
+   alt:[
+  {nama:"terabox", url:["https://sfl.gl/tJRJpbWN",
+                        "https://sfl.gl/SITsCjZ",
+                        "https://sfl.gl/rCITRDZ"]}],
+  poster:"images/kityy.jpg"}
 ];
 // ===== FUNGSI BERSAMA (dipakai semua halaman) =====
 const $ = (id) => document.getElementById(id);
