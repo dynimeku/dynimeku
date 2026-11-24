@@ -2,7 +2,7 @@
 // dl = link download. {n} otomatis diganti nomor episode.
 // Kosongkan dl ("") kalau belum punya link.
 const animeList = [
-  {id:1, title:"Hypnotic glasses", genre:"Action", type:"Drama", rating:8.7, eps:3, color:"#c0392b",
+  {id:1, title:"Hypnotic glasses", genre:"Drama", type:"Drama", rating:8.7, eps:3, color:"#c0392b",
    desc:"The file in zip format and is password-protected.PW:dynime",
    video:"", dl:["https://bit.ly/4fLi79x",
                  "https://bit.ly/auctionr-sale",
@@ -14,7 +14,7 @@ const animeList = [
    ],
   poster:"images/hypnotic.jpg"},
   //My Girlfriend helped me fuck her best friend
-  {id:2, title:"My Girlfriend helped me fuck her best friend", genre:"Romance", type:"Drama", rating:8.8, eps:2, color:"#6c3fb5",
+  {id:2, title:"My Girlfriend helped me fuck her best friend", genre:"Drama", type:"Drama", rating:8.8, eps:2, color:"#6c3fb5",
    desc:"The file in zip format and is password-protected.PW:dynime",
    video:"", dl:["https://bit.ly/4fLi79x",
                  "https://bit.ly/auctionr-sale"],
@@ -24,7 +24,7 @@ const animeList = [
    ],
   poster:"images/my-girl.jpg"},
   //Love assistant
-  {id:3, title:"Love Assistant", genre:"Romance", type:"Drama", rating:9.1, eps:2, color:"#d35d8c",
+  {id:3, title:"Love Assistant", genre:"Drama", type:"Drama", rating:9.1, eps:2, color:"#d35d8c",
    desc:"The file in zip format and is password-protected.PW:dynime",
    video:"", dl:["https://bit.ly/4fLi79x",
                  "https://bit.ly/auctionr-sale"],
@@ -34,7 +34,7 @@ const animeList = [
    ],
   poster:"images/love-assistant.jpg"},
   //I turned my bro into a bitch
-  {id:4, title:"I turned my bro into a bitch", genre:"Romance", type:"Drama", rating:8.5, eps:7, color:"#e0a030",
+  {id:4, title:"I turned my bro into a bitch", genre:"Drama", type:"Drama", rating:8.5, eps:7, color:"#e0a030",
    desc:"The file in zip format and is password-protected.PW:dynime",
    video:"", dl:["https://bit.ly/4fLi79x",
                  "https://bit.ly/auctionr-sale",
@@ -54,7 +54,7 @@ const animeList = [
    ],
   poster:"images/into-bitch.jpg"},
   //collage girl
-  {id:5, title:"College Girl", genre:"School", type:"Drama", rating:9.6, eps:6, color:"#1f8a70",
+  {id:5, title:"College Girl", genre:"Drama", type:"Drama", rating:9.6, eps:6, color:"#1f8a70",
    desc:"The file is in zip format and is password-protected.PW:dynimeku",
    video:"", dl:["https://bit.ly/4fLi79x",
                  "https://bit.ly/auctionr-sale",
@@ -72,7 +72,7 @@ const animeList = [
     {nama:"uc browser",url:[]}],
   poster:"images/college-girl.jpg"},
   //Conquering mother
-  {id:6, title:"Conquering the Mother", genre:"Romance", type:"Drama", rating:8.9, eps:6, color:"#2c6fbb",
+  {id:6, title:"Conquering the Mother", genre:"Drama", type:"Drama", rating:8.9, eps:6, color:"#2c6fbb",
    desc:"The file is in zip format and is Pessword-protected.PW:dynime",
    video:"", dl:["https://bit.ly/4fLi79x",
                  "https://bit.ly/auctionr-sale",
@@ -90,7 +90,7 @@ const animeList = [
     {nama:"uc browser", url:[]}],
   poster:"images/conquering-mother.jpg"},
   // A mother's desire
-  {id:7, title:"A mother's desire", genre:"Romance", type:"Drama", rating:9.1, eps:10, color:"#b0396b",
+  {id:7, title:"A mother's desire", genre:"Drama", type:"Drama", rating:9.1, eps:10, color:"#b0396b",
    desc:"The file is in zip format and is password-protected. PW:dynime",
    video:"", dl:["https://bit.ly/4fLi79x",
                  "https://bit.ly/auctionr-sale",
@@ -118,7 +118,7 @@ const animeList = [
   banner:"images/hasrat-seorang-ibu.jpg",
   poster:"images/a-mother.jpg"},
   //Time Stoppage
-  {id:8, title:"Time Stoppage", genre:"Romance", type:"Drama", rating:9.3, eps:10, color:"#d9822b",
+  {id:8, title:"Time Stoppage", genre:"Drama", type:"Drama", rating:9.3, eps:10, color:"#d9822b",
    desc:"The file is in zip format and is password-protected. PW:dynime",
    video:"", dl:["https://bit.ly/4fLi79x",
                  "https://bit.ly/auctionr-sale",
@@ -162,7 +162,18 @@ const animeList = [
   {nama:"terabox", url:["https://sfl.gl/tJRJpbWN",
                         "https://sfl.gl/SITsCjZ",
                         "https://sfl.gl/rCITRDZ"]}],
-  poster:"images/kityy.jpg"}
+  poster:"images/kityy.jpg"},
+
+  {id:11, title:"OFJE-558", genre:"Jav", type:"Movie", rating:9.8, eps:3, color:"#b0396b",
+   desc:"The file is in zip format and is password-protected. PW:dynime",
+   video:"", dl:["https://bit.ly/4fLi79x",
+                 "https://bit.ly/auctionr-sale",
+                "https://bit.ly/auctionr-sale"],
+   alt:[
+  {nama:"terabox", url:["https://sfl.gl/1Sf7",
+                        "https://sfl.gl/8VBrKeH",
+                        "https://sfl.gl/BxUGQ"]}],
+  poster:"images/hikaru-nagi.jpg"},
 ];
 // ===== FUNGSI BERSAMA (dipakai semua halaman) =====
 const $ = (id) => document.getElementById(id);
