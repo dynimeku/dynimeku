@@ -174,6 +174,20 @@ const animeList = [
                         "https://sfl.gl/8VBrKeH",
                         "https://sfl.gl/BxUGQ"]}],
   poster:"images/hikaru-nagi.jpg"},
+
+    {id:12, title:"Confessions of a Mother and Son", genre:"Drama", type:"Drama", rating:8.5, eps:4, color:"#2c6fbb",
+   desc:"The file is in zip format and is Pessword-protected.PW:dynime",
+   video:"", dl:["https://bit.ly/4fLi79x",
+                 "https://bit.ly/auctionr-sale",
+                 "https://bit.ly/4fLi79x",
+                 "https://bit.ly/auctionr-sale"],
+  alt:[
+    {nama:"terabox", url:["https://sfl.gl/BERL",
+                          "https://sfl.gl/6SnAplX",
+                          "https://sfl.gl/AViftllB",
+                          "https://sfl.gl/O64FVM"]},
+    {nama:"uc browser", url:[]}],
+  poster:"images/amsce.jpg"},
 ];
 // ===== FUNGSI BERSAMA (dipakai semua halaman) =====
 const $ = (id) => document.getElementById(id);
